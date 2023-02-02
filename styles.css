@@ -62,13 +62,7 @@ h3 {
   height: 160px;
 }
 
-.r_btn:hover, .l_btn:hover {
-  color: #D9ACF5;
-}
 
-.start_btn:hover, .end_btn:hover, .normal_btn:hover {
-  color: #A084DC;
-}
 
 .hidden {
   visibility: hidden;
@@ -101,6 +95,16 @@ h3 {
 
 .wrong_word {}
 
+
+@media (min-width: 1100px) {
+  .r_btn:hover, .l_btn:hover {
+    color: #D9ACF5;
+  }
+
+  .start_btn:hover, .end_btn:hover, .normal_btn:hover {
+    color: #A084DC;
+  }
+}
 @media (max-width: 1100px) {
 
   .r_btn, .l_btn, .start_btn, .end_btn, .normal_btn {

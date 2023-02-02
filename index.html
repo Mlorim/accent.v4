@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Fuzzy+Bubbles&family=Lobster&family=Montserrat:wght@400;700;900&family=Nunito:wght@200&family=Ubuntu&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>Начать игру!</h1>
+    <!-- <h2>Ваш рекорд: ?</h2> -->
+
+    <div class="hidden gameover">
+      <h3 class = "score">Ваш счёт: </h3>
+      <h3 class = "record">Ваш рекорд: </h3>
+    </div>
+
+    <div class="hidden win">
+      <h3 class = "score">Все верно!</h3>
+      <h3 class = "record">Чтобы играть снова, перезагрузите страницу</h3>
+    </div>
+
+    <div class="d-flex justify-content-center start_cont">
+      <div class="d-flex align-content-center flex-wrap btn start_btn">
+        Бесконечный режим
+      </div>
+      <div class="d-flex align-content-center flex-wrap btn normal_btn">
+        Обычный режим
+      </div>
+    </div>
+
+    <div class="hidden d-flex justify-content-center game_cont">
+      <div class="d-flex align-content-center flex-wrap btn l_btn">
+        -
+      </div>
+      <div class="d-flex align-content-center flex-wrap btn r_btn">
+        -
+      </div>
+    </div>
+
+    <div class="hidden d-flex justify-content-center end_cont">
+      <div class="d-flex align-content-center flex-wrap btn end_btn">
+        Играть снова
+      </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>

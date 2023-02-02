@@ -87,7 +87,6 @@ h3 {
   bottom: 70px;
 }
 
-
 .visible {
   position: relative;
   bottom: 310px;
@@ -98,9 +97,46 @@ h3 {
   bottom: 500px;
 }
 
+.right_word {}
 
-.right_word {
+.wrong_word {}
+
+@media (max-width: 1100px) {
+
+  .r_btn, .l_btn, .start_btn, .end_btn, .normal_btn {
+    width: 50%;
+    height: 60%;
+    margin: 50px;
+    font-size: 3rem;
+    padding: 3%;
+  }
+
+  .visible2, .visible {
+    position: relative;
+    bottom: 600px;
+  }
+
+  .gameover {
+    margin-top: 20%;
+  }
+
+  .score, .record {
+    font-size: 4rem;
+  }
+
+  .end_btn {
+    width: 400px;
+    height: 160px;
+    position: relative;
+    bottom: 400px;
+  }
+
+  .r_btn:hover, .l_btn:hover, {
+    color: #fff;
+  }
+
+  .start_btn:hover, .end_btn:hover, .normal_btn:hover {
+    color: #black;
+  }
 }
 
-.wrong_word {
-}
